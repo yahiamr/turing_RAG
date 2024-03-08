@@ -60,7 +60,3 @@ For more advanced use cases, you may want to customize the retrieval process. Th
 RAG offers a powerful way to enhance NLP models with external knowledge. By leveraging the Hugging Face Transformers library, you can easily integrate RAG into your projects. For detailed documentation, additional examples, and community support, visit the [Hugging Face website](https://huggingface.co).
 
 Remember, the true power of RAG comes from its ability to dynamically retrieve and utilize information. Experiment with different datasets and configurations to best suit your needs.
-
----
-
-This guide covers the basics to get you started with RAG and Hugging Face. For more in-depth information, refer to the official Hugging Face documentation and explore the numerous resources available online to deepen your understanding and enhance your projects with RAG.
