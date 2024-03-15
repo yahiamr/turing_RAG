@@ -9,10 +9,10 @@ def load_model():
     model = AutoModelForCausalLM.from_pretrained("gpt2")
     return tokenizer, model
     
-tokenizer, model = load_model()
-
-# Streamlit app
-st.title("GPT-2 Interactive Chat")
-
-# Text input for user prompt
-prompt = st.text_input("Enter your prompt:")
+    tokenizer, model = load_model()
+    
+    # Streamlit app
+    st.title("GPT-2 Interactive Chat")
+    
+    # Text input for user prompt
+    prompt = st.text_input("Enter your prompt:")
