@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import time
 
-st.title("Simple chat")
+st.title("Simple chat bot")
 
 # Initialize chat history
 if "messages" not in st.session_state:
