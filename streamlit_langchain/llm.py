@@ -3,7 +3,7 @@ import streamlit as st
 from langchain.llms import OpenAI
 
 # Set the title of the web app, which appears at the top of the page.
-st.title('🦜🔗 Quickstart App')
+st.title('🦜🔗 Quickstart langchain App')
 
 # Create a sidebar input for the OpenAI API key, masking the input for privacy.
 openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
