@@ -5,8 +5,8 @@ import torch
 # Load tokenizer and model only once, using caching
 @st.cache(allow_output_mutation=False)
 def load_model():
-    tokenizer = AutoTokenizer.from_pretrained("gpt2")
-    model = AutoModelForCausalLM.from_pretrained("gpt2")
+    tokenizer = AutoTokenizer.from_pretrained("gpt")
+    model = AutoModelForCausalLM.from_pretrained("gpt")
     return tokenizer, model
     
     tokenizer, model = load_model()
