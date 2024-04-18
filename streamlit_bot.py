@@ -25,4 +25,4 @@ if prompt:
     
     # Decode and display the response
     response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    st.text_area("Response:", value=response, height=200, max_chars=None, key=None)
+    st.text_area("Response:", value=response, height=300, max_chars=None, key=None)
