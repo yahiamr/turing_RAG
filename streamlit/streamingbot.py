@@ -32,7 +32,7 @@ def response_generator():
     )
     for word in response.split():
         yield word + " "
-        time.sleep(0.1)
+        time.sleep(0.2)
         
             # Display assistant response in chat message container
     with st.chat_message("assistant"):
