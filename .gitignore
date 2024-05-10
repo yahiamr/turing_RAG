@@ -1,1 +1,59 @@
+# macOS related
 .DS_Store
+Thumbs.db
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# PyInstaller
+dist/
+build/
+
+# Setup artifacts
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.so
+
+# Testing
+.tox/
+.nox/
+
+# Coverage reports
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+
+# MyPy type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+.pylint.d/
+
+# Bandit security analysis
+.bandit/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
